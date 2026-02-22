@@ -1,120 +1,96 @@
-📱 BMI Calculator – .NET MAUI
-📌 Overview
+# 📱 BMI Calculator – .NET MAUI
 
-The BMI Calculator is a cross-platform mobile application built using .NET MAUI.
-It allows users to calculate their Body Mass Index (BMI) based on their height and weight, and instantly displays their BMI value along with the corresponding BMI category.
+## 📌 Overview
+
+The **BMI Calculator** is a cross-platform mobile application built using **.NET MAUI**.  
+It allows users to calculate their **Body Mass Index (BMI)** based on their height and weight, then displays the computed BMI value along with the corresponding BMI category.
 
 The application supports multiple units of measurement and features a modern, user-friendly interface.
 
-🚀 Features
+---
 
-✅ Supports multiple height units:
+## 🚀 Features
 
-Centimeters (cm)
+- ✅ Supports multiple height units:
+  - Centimeters (cm)
+  - Feet and Inches (ft/in)
 
-Feet and Inches (ft/in)
+- ✅ Supports multiple weight units:
+  - Kilograms (kg)
+  - Pounds (lbs)
 
-✅ Supports multiple weight units:
+- ✅ Automatic unit conversion for accurate BMI calculation
 
-Kilograms (kg)
+- ✅ Displays:
+  - BMI value (formatted to 2 decimal places)
+  - BMI category:
+    - Underweight
+    - Normal Weight
+    - Overweight
+    - Obese
 
-Pounds (lbs)
+- ✅ Modern UI Design:
+  - Gradient background
+  - Card-style layout
+  - Rounded input fields
+  - Color-coded BMI result panel
 
-✅ Automatically converts all inputs to metric units for accurate BMI calculation
+---
 
-✅ Displays:
+## 📊 BMI Formula Used
 
-Calculated BMI (formatted to 2 decimal places)
+\[
+BMI = \frac{weight (kg)}{height (m)^2}
+\]
 
-BMI category (Underweight, Normal Weight, Overweight, Obese)
+---
 
-✅ Modern UI design with:
+## 🧮 BMI Categories
 
-Gradient background
+| BMI Range        | Category        |
+|------------------|-----------------|
+| Less than 18.5   | Underweight     |
+| 18.5 – 24.9      | Normal Weight   |
+| 25 – 29.9        | Overweight      |
+| 30 and above     | Obese           |
 
-Card-style layout
+---
 
-Rounded input fields
+## 🛠 Technologies Used
 
-Color-coded BMI result panel
+- .NET MAUI  
+- C#  
+- XAML  
+- Visual Studio 2022  
 
-📊 BMI Formula Used
-𝐵
-𝑀
-𝐼
-=
-𝑤
-𝑒
-𝑖
-𝑔
-ℎ
-𝑡
-(
-𝑘
-𝑔
-)
-ℎ
-𝑒
-𝑖
-𝑔
-ℎ
-𝑡
-(
-𝑚
-)
-2
-BMI=
-height(m)
-2
-weight(kg)
-	​
+---
 
-🧮 BMI Categories
-BMI Range	Category
-< 18.5	Underweight
-18.5 – 24.9	Normal Weight
-25 – 29.9	Overweight
-30 and above	Obese
-🛠 Technologies Used
-
-.NET MAUI
-
-C#
-
-XAML
-
-Visual Studio 2022
-
-📱 Platform Support
+## 📱 Platform Support
 
 This application can run on:
 
-Android
+- Android  
+- iOS  
+- Windows  
+- macOS  
 
-iOS
+(Depending on installed .NET MAUI workloads.)
 
-Windows
+---
 
-macOS
-
-(Depending on your installed MAUI workloads.)
-
-🎯 Purpose
+## 🎯 Learning Objectives
 
 This project demonstrates:
 
-User input handling in .NET MAUI
+- User input handling in .NET MAUI  
+- Unit conversion logic  
+- Event-driven programming  
+- UI design using XAML  
+- Conditional logic implementation  
+- Cross-platform mobile development  
 
-Unit conversion logic
+---
 
-Event-driven programming
+## 👨‍💻 Author
 
-UI design using XAML
-
-Conditional logic implementation
-
-Cross-platform mobile development
-
-👨‍💻 Author
-
-Developed as a project requirement for learning .NET MAUI application development.
+Developed as part of a .NET MAUI application development project.
