@@ -1,2 +1,120 @@
-# Jimmy-s-BMI-Calculator
-Instructions:  Using .NET MAUI, create a BMI Calculator that would ask for 2 inputs (Height and Weight). It will then calculate the BMI and display it together with the BMI Category. Design is up to you.
+📱 BMI Calculator – .NET MAUI
+📌 Overview
+
+The BMI Calculator is a cross-platform mobile application built using .NET MAUI.
+It allows users to calculate their Body Mass Index (BMI) based on their height and weight, and instantly displays their BMI value along with the corresponding BMI category.
+
+The application supports multiple units of measurement and features a modern, user-friendly interface.
+
+🚀 Features
+
+✅ Supports multiple height units:
+
+Centimeters (cm)
+
+Feet and Inches (ft/in)
+
+✅ Supports multiple weight units:
+
+Kilograms (kg)
+
+Pounds (lbs)
+
+✅ Automatically converts all inputs to metric units for accurate BMI calculation
+
+✅ Displays:
+
+Calculated BMI (formatted to 2 decimal places)
+
+BMI category (Underweight, Normal Weight, Overweight, Obese)
+
+✅ Modern UI design with:
+
+Gradient background
+
+Card-style layout
+
+Rounded input fields
+
+Color-coded BMI result panel
+
+📊 BMI Formula Used
+𝐵
+𝑀
+𝐼
+=
+𝑤
+𝑒
+𝑖
+𝑔
+ℎ
+𝑡
+(
+𝑘
+𝑔
+)
+ℎ
+𝑒
+𝑖
+𝑔
+ℎ
+𝑡
+(
+𝑚
+)
+2
+BMI=
+height(m)
+2
+weight(kg)
+	​
+
+🧮 BMI Categories
+BMI Range	Category
+< 18.5	Underweight
+18.5 – 24.9	Normal Weight
+25 – 29.9	Overweight
+30 and above	Obese
+🛠 Technologies Used
+
+.NET MAUI
+
+C#
+
+XAML
+
+Visual Studio 2022
+
+📱 Platform Support
+
+This application can run on:
+
+Android
+
+iOS
+
+Windows
+
+macOS
+
+(Depending on your installed MAUI workloads.)
+
+🎯 Purpose
+
+This project demonstrates:
+
+User input handling in .NET MAUI
+
+Unit conversion logic
+
+Event-driven programming
+
+UI design using XAML
+
+Conditional logic implementation
+
+Cross-platform mobile development
+
+👨‍💻 Author
+
+Developed as a project requirement for learning .NET MAUI application development.
