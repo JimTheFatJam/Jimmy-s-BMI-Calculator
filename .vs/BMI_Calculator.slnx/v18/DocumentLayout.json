@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\JimTheFatLaptop\\source\\repos\\BMI_Calculator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{404C54AF-24E7-4C7B-A15E-C1469767E074}|BMI_Calculator\\BMI_Calculator.csproj|c:\\users\\jimthefatlaptop\\source\\repos\\bmi_calculator\\bmi_calculator\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{404C54AF-24E7-4C7B-A15E-C1469767E074}|BMI_Calculator\\BMI_Calculator.csproj|solutionrelative:bmi_calculator\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{404C54AF-24E7-4C7B-A15E-C1469767E074}|BMI_Calculator\\BMI_Calculator.csproj|c:\\users\\jimthefatlaptop\\source\\repos\\bmi_calculator\\bmi_calculator\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{404C54AF-24E7-4C7B-A15E-C1469767E074}|BMI_Calculator\\BMI_Calculator.csproj|solutionrelative:bmi_calculator\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\JimTheFatLaptop\\source\\repos\\BMI_Calculator\\BMI_Calculator\\MainPage.xaml",
+              "RelativeDocumentMoniker": "BMI_Calculator\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\JimTheFatLaptop\\source\\repos\\BMI_Calculator\\BMI_Calculator\\MainPage.xaml",
+              "RelativeToolTip": "BMI_Calculator\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-22T10:54:09.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\JimTheFatLaptop\\source\\repos\\BMI_Calculator\\BMI_Calculator\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "BMI_Calculator\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\JimTheFatLaptop\\source\\repos\\BMI_Calculator\\BMI_Calculator\\MainPage.xaml.cs",
+              "RelativeToolTip": "BMI_Calculator\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T10:54:31.788Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

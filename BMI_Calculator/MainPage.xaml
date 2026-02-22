@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="BMI_Calculator.MainPage">
+
+    <!-- Gradient Background -->
+    <ContentPage.Background>
+        <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+            <GradientStop Color="#4e73df" Offset="0.0"/>
+            <GradientStop Color="#1cc88a" Offset="1.0"/>
+        </LinearGradientBrush>
+    </ContentPage.Background>
+
+    <ScrollView>
+        <VerticalStackLayout Padding="25" VerticalOptions="Center">
+
+            <!-- Card Container -->
+            <Frame BackgroundColor="White"
+                   CornerRadius="25"
+                   Padding="25"
+                   HasShadow="True">
+
+                <VerticalStackLayout Spacing="18">
+
+                    <Label
+                        Text="BMI Calculator"
+                        FontSize="26"
+                        FontAttributes="Bold"
+                        HorizontalOptions="Center"
+                        TextColor="#333"/>
+
+                    <!-- Height Section -->
+                    <Label Text="Height Unit" FontAttributes="Bold"/>
+
+                    <Picker x:Name="heightUnitPicker"
+                            BackgroundColor="#F1F3F6"
+                            SelectedIndexChanged="OnHeightUnitChanged"/>
+
+                    <Entry x:Name="heightCmEntry"
+                           Placeholder="Height (cm)"
+                           BackgroundColor="#F1F3F6"
+                           Keyboard="Numeric"
+                           Margin="0,5,0,0"/>
+
+                    <HorizontalStackLayout x:Name="feetInchesLayout"
+                                           IsVisible="False"
+                                           Spacing="10">
+                        <Entry x:Name="feetEntry"
+                               Placeholder="Feet"
+                               BackgroundColor="#F1F3F6"
+                               Keyboard="Numeric"/>
+                        <Entry x:Name="inchesEntry"
+                               Placeholder="Inches"
+                               BackgroundColor="#F1F3F6"
+                               Keyboard="Numeric"/>
+                    </HorizontalStackLayout>
+
+                    <!-- Weight Section -->
+                    <Label Text="Weight Unit" FontAttributes="Bold"/>
+
+                    <Picker x:Name="weightUnitPicker"
+                            BackgroundColor="#F1F3F6"/>
+
+                    <Entry x:Name="weightEntry"
+                           Placeholder="Weight"
+                           BackgroundColor="#F1F3F6"
+                           Keyboard="Numeric"/>
+
+                    <!-- Button -->
+                    <Button Text="Calculate BMI"
+                            Clicked="OnCalculateClicked"
+                            BackgroundColor="#4e73df"
+                            TextColor="White"
+                            CornerRadius="15"
+                            HeightRequest="50"
+                            FontAttributes="Bold"/>
+
+                    <!-- Result Card -->
+                    <Frame x:Name="resultFrame"
+                           IsVisible="False"
+                           CornerRadius="20"
+                           Padding="15"
+                           BackgroundColor="#E9ECEF">
+
+                        <VerticalStackLayout Spacing="5">
+                            <Label x:Name="bmiValueLabel"
+                                   FontSize="22"
+                                   FontAttributes="Bold"
+                                   HorizontalOptions="Center"/>
+
+                            <Label x:Name="bmiCategoryLabel"
+                                   FontSize="18"
+                                   HorizontalOptions="Center"/>
+                        </VerticalStackLayout>
+
+                    </Frame>
+
+                </VerticalStackLayout>
+            </Frame>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
